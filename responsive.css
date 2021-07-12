@@ -1,3 +1,16 @@
+@media screen and (max-width: 600px){
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    width: 100%;
+    }
+
+    img{
+        margin-top: 38px;
+    }
+}
+
 @media screen and (max-width: 420px){
     .container{
         padding: 0 18px;
@@ -19,19 +32,6 @@
 
     img{
         height: 100px;
-    }
-}
-
-@media screen and (max-width: 600px){
-
-    #steps .row>.left,
-    #steps .row>.central,
-    #steps .row>.right {
-    width: 100%;
-    }
-
-    img{
-        margin-top: 38px;
     }
 }
 
