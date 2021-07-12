@@ -1,22 +1,10 @@
 @media screen and (max-width: 420px){
     .container{
-        max-width: 420px;
         padding: 0 18px;
-    }
-    .row{
-        width: 100%;
-        max-width: 420px;
     }
     
     #lezioni .row>.left, #lezioni .row>.right {
         width: 100%;
-    }
-
-    #steps .row>.left,
-    #steps .row>.central,
-    #steps .row>.right {
-    float: left;
-    width: 100%;
     }
 
     #why .row>.first,
@@ -31,6 +19,24 @@
 
     img{
         height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    width: 100%;
+    }
+
+    img{
         margin-top: 38px;
+    }
+}
+
+@media screen and (min-width: 0px){
+    .row{
+        width: 100%;
     }
 }
